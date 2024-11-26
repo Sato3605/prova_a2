@@ -4,6 +4,7 @@ passo a passo:
 Criar o repositório no github(deixar publico, aicionar o README file, adicionar o .gitignore do VisualStudio).
 Clonaro repositório na máquina, através do terminal aberto no folder da prova.
 > git clone "link"
+> 
 Adicionar o arquivo de teste para dentro do repositório
 
 Criar a solução:
