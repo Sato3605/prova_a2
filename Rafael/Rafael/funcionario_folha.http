@@ -1,4 +1,4 @@
-@base_url = http://localhost:5277/api
+@base_url = http://localhost:5011/api
 
 # FUNCIONÁRIO ######################################
 
@@ -7,8 +7,8 @@ POST {{base_url}}/funcionario/cadastrar
 Content-Type: application/json
 
 {
-    "nome": "Diogo",
-    "cpf" : "12345678912"
+    "nome": "rafael",
+    "cpf" : "12345643243"
 }
 
 ### Obtenção de todos os funcionários
@@ -32,4 +32,4 @@ Content-Type: application/json
 GET {{base_url}}/folha/listar
 
 ### Obtenção de uma folha
-GET {{base_url}}/folha/buscar/12345678912/11/2023
+GET {{base_url}}/folha/buscar/12345643243/11/2023
