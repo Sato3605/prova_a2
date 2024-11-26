@@ -1,5 +1,9 @@
 # prova_a2
 
+mayqueragg41@outlook.com
+
+GabriellyMayquera31102024030780
+
 passo a passo:
 Criar o repositório no github(deixar publico, aicionar o README file, adicionar o .gitignore do VisualStudio).
 Clonaro repositório na máquina, através do terminal aberto no folder da prova.
@@ -35,3 +39,12 @@ Comandos para instalar bibliotecas:
 > dotnet add package Microsoft.EntityFrameworkCore.Design
 
 Criar a pasta Models
+
+Criar a primeira migração:
+
+>dotnet ef migrations add InitialCreate
+>
+>dotnet ef database upddate
+
+Links do notion importantes:
+CRUD com Entity Framework
